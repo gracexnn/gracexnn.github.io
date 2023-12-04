@@ -53,7 +53,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div>
-						<div className='p-10 inline-flex' style={{ height: 500 }}>
+						<div className='p-10 inline-flex' style={{ height: 500, width: '100%', maxWidth: 800, minWidth: 200 }}>
 							<img
 								src={userinfo?.pic}
 								width={400}
