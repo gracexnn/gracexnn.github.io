@@ -1,14 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    basePath: '/gracexnn.github.io',
-    assetPrefix: '/gracexnn.github.io/',
-    exportPathMap: async function () {
-        return {
-          '/': { page: '/' },
-          // Add other pages as needed
-        };
-    },
+  assetPrefix: '/',
 }
 
 module.exports = nextConfig
